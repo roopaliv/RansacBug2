@@ -1,0 +1,4 @@
+<launch>
+	<node name="stage" pkg="stage_ros" type="stageros" args="$(find lab2)/world/playground2.world" />
+	<node name="perceiver" pkg="lab2" type="achiever.py"/>
+</launch>
